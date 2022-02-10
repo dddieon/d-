@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useRef, useState } from 'react';
-import { setConstantValue } from 'typescript';
 
 function GuGuDan() {
     const [first, setFirst] = useState(Math.ceil(Math.random() * 9)) // 1에서 9까지 랜덤
